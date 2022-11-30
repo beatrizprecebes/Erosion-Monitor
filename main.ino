@@ -5,8 +5,8 @@
 #include "ThingSpeak.h"
 
 /*WiFi connection data*/
-char* ssid           = "Unicamp-IoT";
-const char* password = "chave-IoT at unicamp.br";
+char* ssid           = "ssid";
+const char* password = "password";
 
 String result;
 
@@ -16,14 +16,14 @@ unsigned long timer_delay = 10000;
 WiFiClient client;
 
 /*OpenWeather API informations*/
-String openWeatherMapApiKey = "e50ed4301e8eb24cd3d2c9510c0458dc";
+String openWeatherMapApiKey = "OpenWeather api key";
 String cityID               = "3467865";                           //Campinas ID
 char servername[]           = "api.openweathermap.org";
 bool id                     = false;
 
 /*ThingSpeak channel informations*/
 unsigned long channel_number = 1942388;
-const char * write_API_key = "GVGXV40HF6XT3Z0E";
+const char * write_API_key = "write_API_key";
 
 /*Ultrasonic sensor informations*/
 #define SOUND_SPEED 0.034

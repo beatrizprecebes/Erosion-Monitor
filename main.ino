@@ -22,7 +22,7 @@ char servername[]           = "api.openweathermap.org";
 bool id                     = false;
 
 /*ThingSpeak channel informations*/
-unsigned long channel_number = 1942388;
+unsigned long channel_number = channel_number;
 const char * write_API_key = "write_API_key";
 
 /*Ultrasonic sensor informations*/
